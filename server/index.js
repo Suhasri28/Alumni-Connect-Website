@@ -15,7 +15,7 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
   host: 'localhost', // MySQL server address
   user: 'root',      // Your MySQL username
-  password: 'LearnGrow123$',      // Your MySQL password (empty if no password)
+  password: '',      // Your MySQL password (empty if no password)
   database: 'alumni_connect'  // Name of your MySQL database
 });
 
